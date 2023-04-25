@@ -56,7 +56,7 @@ agricultureRouter.get(
     asyncHandler(async (req, res) => {
         const pageSize = 12;
         const page = Number(req.query.pageNumber) || 1;
-        const typeId = req.query.typeId;
+        const typeId = req.params.typeId;
         const count = await Agriculture.countDocuments({});
         const agricultures = await Agriculture.find({ type: typeId })
             .limit(pageSize)
