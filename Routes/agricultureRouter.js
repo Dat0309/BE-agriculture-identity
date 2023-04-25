@@ -57,19 +57,7 @@ agricultureRouter.get(
         const pageSize = 12;
         const page = Number(req.query.pageNumber) || 1;
         const typeId = req.query.typeId;
-        const keyword = req.query.keyword
-            ? {
-                common_name: {
-                    $regex: req.query.keyword,
-                    $options: "i",
-                },
-                specific_name: {
-                    $regex: req.query.keyword,
-                    $options: "i",
-                },
-            }
-            : {};
-        const count = await Agriculture.countDocuments({ ...keyword });
+        const count = await Agriculture.countDocuments({});
         const agricultures = await Agriculture.find({ type: typeId })
             .limit(pageSize)
             .skip(pageSize * (page - 1))
