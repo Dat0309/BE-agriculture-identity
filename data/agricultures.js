@@ -103,7 +103,7 @@ const agricultures = [
         common_name: "Lá Chè",
         image: "https:\/\/suckhoedoisong.qltns.mediacdn.vn\/324455921873985536\/2022\/7\/3\/h1-hinh-1-nhung-dieu-thu-vi-ve-dac-diem-cay-che-dac-diem-sinh-thai-vung-mien1-1656859695050198595599.jpg",
         description: "Trà (hay chè) là đồ uống phổ biến thứ hai trên thế giới (sau nước uống). Nó làm bằng cách ngâm lá, chồi, hay cành của cây chè (Camellia sinensis) vào nước sôi từ vài phút đến vài giờ. Lá chè có thể được oxy hóa (ủ để lên men), sấy rang, phơi, hay pha thêm các loài thảo mộc khác như hoa, gia vị, hay trái cây khác trước khi chế vào nước sôi. Trong phạm vi thức uống chế từ Camellia sinensis thì có bốn loại trà thật: Trà đen, Trà Ô Long, Trà xanh và Trà trắng. Nước trà là nguồn caffein, theophylline và chất chống oxy hóa (antioxidant) tự nhiên và gần như không có mỡ, carbohydrate, hay protein. Nước trà có mùi thơm, vị hơi đắng và chát.",
-        type: "Lá",
+        type: "6447dbeab556ff734098c72f",
         height_and_spread: "16m",
         family: "Camellia sinensis"
     },
