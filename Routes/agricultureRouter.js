@@ -1,7 +1,7 @@
 import express from "express";
-import { admin, protect, updater } from "../Middleware/AuthMiddleware.js";
+import { admin, protect } from "../Middleware/AuthMiddleware.js";
 import asyncHandler from "express-async-handler";
-import Agriculture from "../Models/agicultureModel";
+import Agriculture from "../Models/agicultureModel.js";
 
 const agricultureRouter = express.Router();
 
@@ -116,8 +116,6 @@ agricultureRouter.get(
  */
 agricultureRouter.post(
     "/",
-    protect,
-    admin,
     asyncHandler(async (req, res) => {
         const {
             specific_name,
@@ -150,7 +148,6 @@ agricultureRouter.post(
 agricultureRouter.put(
     "/:id",
     protect,
-    updater,
     asyncHandler(async (req, res) => {
         const {
             specific_name,

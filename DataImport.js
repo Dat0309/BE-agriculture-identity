@@ -1,17 +1,11 @@
 import express from "express";
 import asyncHandler from "express-async-handler";
-import babershops from "./data/babershopData.js";
-import hairstyles from "./data/hairstyleData.js";
-import orders from "./data/orderData.js";
-import services from "./data/servicesData.js";
-import users from "./data/userData.js";
-import BaberShop from "./Models/babershop.js";
-import HairStyle from "./Models/hairstyle.js";
-import Order from "./Models/order.js";
-import Services from "./Models/services.js";
+import users from "./data/users.js";
 import User from "./Models/user.js";
 import Agriculture from "./Models/agicultureModel.js";
 import AgricultureType from "./Models/agricultureTypeModel.js";
+import agricultures from "./data/agricultures.js";
+import agricultureTypes from "./data/agricultureTypes.js";
 
 
 const ImportData = express.Router();
@@ -29,7 +23,7 @@ ImportData.post(
   "/agriculture",
   asyncHandler(async (req, res) => {
     await Agriculture.deleteMany({});
-    const importAgriculture = await Agriculture.insertMany();
+    const importAgriculture = await Agriculture.insertMany(agricultures);
     res.send({ importAgriculture });
   })
 );
@@ -38,7 +32,7 @@ ImportData.post(
   "/agricultureType",
   asyncHandler(async (req, res) => {
     await AgricultureType.deleteMany({});
-    const importAgriculture = await AgricultureType.insertMany();
+    const importAgriculture = await AgricultureType.insertMany(agricultureTypes);
     res.send({ importAgriculture });
   })
 );
