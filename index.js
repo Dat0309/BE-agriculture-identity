@@ -37,7 +37,7 @@ const swaggerDefinition = {
   ],
   paths:{
     path: {
-      '/agriculture': agricultureRouter,
+      '/agriculture': [Object],
     }
   },
   components: {},
@@ -80,7 +80,7 @@ app.use("/api/v1/import", ImportData);
 app.use("/api/v1/agriculture", agricultureRouter);
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/agricultureType", agricultureTypeRouter)
-app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
+app.use("/api/v1/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 // ERROR HANDLER
 app.use(notFound);
