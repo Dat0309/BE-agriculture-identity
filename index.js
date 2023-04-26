@@ -14,6 +14,36 @@ connectDatabase();
 const app = express();
 app.use(express.json());
 
+const swaggerDefinition = {
+  openapi: '3.0.0',
+  info: {
+    title: "Agriculture API",
+    version: '1.0.0',
+    description: 'This is a REST API application made with Express. It retrievews data from JSONPlace!',
+    license: {
+      name: 'Licensed Under MIT',
+      url: 'https://spdx.org/licenses/MIT.html',
+    },
+    contact: {
+      name: 'JSONPlaceholder',
+      url: 'https://jsonplaceholder.typicode.com',
+    },
+  },
+  servers: [
+    {
+      url: 'https://agriculture-identity.vercel.app/',
+      description: 'Development server agriculture',
+    },
+  ]
+};
+
+const options = {
+  swaggerDefinition,
+  apis: ['./routes/*.js'],
+};
+
+const swaggerSpec = swaggerJsDoc(options);
+
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
@@ -39,6 +69,7 @@ app.use(function (req, res, next) {
 });
 
 // API
+app.use("/decs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 app.use("/api/v1/import", ImportData);
 app.use("/api/v1/agriculture", agricultureRouter);
 app.use("/api/v1/user", userRouter);
