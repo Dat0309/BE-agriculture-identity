@@ -7,7 +7,10 @@ import generateToken from "../utils/generateToken.js";
 const userRouter = express.Router();
 
 /**
- * Login function
+ * @swagger
+ * /:
+ *   post:
+ *     description:  User login fucntion
  */
 userRouter.post(
     "/login",
@@ -32,7 +35,10 @@ userRouter.post(
 );
 
 /**
- * Register function
+ * @swagger
+ * /scatter:
+ *   post:
+ *    description: Register function
  */
 userRouter.post(
     "/",
@@ -81,7 +87,10 @@ userRouter.post(
 );
 
 /**
- * Get user Profile
+ * @swagger
+ * /:
+ *   get:
+ *     description:  Get user Profile
  */
 userRouter.get(
     "/profile",
@@ -106,7 +115,10 @@ userRouter.get(
 );
 
 /**
- * Update profile
+ * @swagger
+ * /scatter:
+ *   post:
+ *    description:  Update profile
  */
 userRouter.put(
     "/profile",

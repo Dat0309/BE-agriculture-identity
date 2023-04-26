@@ -8,6 +8,7 @@ const agricultureTypeRouter = express.Router();
 /**
  * Get all agriculture type
  */
+
 agricultureTypeRouter.get(
   "/",
   asyncHandler(async (req, res) => {

@@ -31,15 +31,22 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'https://agriculture-identity.vercel.app/',
+      url: 'https://agriculture-identity.vercel.app/api/v1',
       description: 'Development server agriculture',
     },
-  ]
+  ],
+  paths:{
+    path: {
+      '/agriculture': agricultureRouter,
+    }
+  },
+  components: {},
+  tags: []
 };
 
 const options = {
   swaggerDefinition,
-  apis: ['./Routes/*.js'],
+  apis: ['BE-agriculture-identity/Routes/*.js'],
 };
 
 const swaggerSpec = swaggerJsDoc(options);
@@ -69,11 +76,11 @@ app.use(function (req, res, next) {
 });
 
 // API
-app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 app.use("/api/v1/import", ImportData);
 app.use("/api/v1/agriculture", agricultureRouter);
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/agricultureType", agricultureTypeRouter)
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 // ERROR HANDLER
 app.use(notFound);

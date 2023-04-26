@@ -6,7 +6,10 @@ import Agriculture from "../Models/agicultureModel.js";
 const agricultureRouter = express.Router();
 
 /**
- * Get all agriculture support pagination
+ * @swagger
+ * /:
+ *   get:
+ *     description:  Get all agriculture support pagination
  */
 agricultureRouter.get(
     '/',
@@ -36,7 +39,10 @@ agricultureRouter.get(
 );
 
 /**
- * Admin get all Agriculture
+ * @swagger
+ * /:
+ *   get:
+ *     description: Admin get all Agriculture
  */
 agricultureRouter.get(
     "/all",
@@ -49,7 +55,10 @@ agricultureRouter.get(
 );
 
 /**
- * Get agriculture by type id
+ * @swagger
+ * /:
+ *   get:
+ *     description: Get agriculture by type id
  */
 agricultureRouter.get(
     "/type-id/:typeId",
@@ -68,7 +77,10 @@ agricultureRouter.get(
 );
 
 /**
- * Get agriculture by name
+ * @swagger
+ * /:
+ *   get:
+ *     description: Get agriculture by name
  */
 agricultureRouter.get(
     'name/:name',
@@ -84,7 +96,10 @@ agricultureRouter.get(
 );
 
 /**
- * Get agriculture by id
+ * @swagger
+ * /:
+ *   get:
+ *     description: Get agriculture by id
  */
 agricultureRouter.get(
     '/:id',
@@ -100,7 +115,10 @@ agricultureRouter.get(
 );
 
 /**
- * Create agriculture
+ * @swagger
+ * /:
+ *   post:
+ *     description: Create agriculture
  */
 agricultureRouter.post(
     "/",
@@ -131,7 +149,10 @@ agricultureRouter.post(
 );
 
 /**
- * Update agriculture
+ * @swagger
+ * /:
+ *   put:
+ *     description: Update agriculture
  */
 agricultureRouter.put(
     "/:id",
@@ -167,7 +188,10 @@ agricultureRouter.put(
 );
 
 /**
- * Delete agriculture
+ * @swagger
+ * /:
+ *   delete:
+ *     description: Delete agriculture
  */
 agricultureRouter.delete(
     "/:id",
