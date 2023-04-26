@@ -35,7 +35,7 @@ const swaggerDefinition = {
       description: 'Development server agriculture',
     },
   ],
-  paths:{
+  paths: {
     path: {
       '/api/v1/agriculture': [Object],
     }
@@ -46,7 +46,14 @@ const swaggerDefinition = {
 
 const options = {
   swaggerDefinition,
-  apis: ['BE-agriculture-identity/Routes/*.js'],
+  basePath: '/api/v1',
+  consumes: [
+    'application/json'
+  ],
+  produces: [
+    'application/json'
+  ],
+  apis: ['./Routes/*.js'],
 };
 
 const swaggerSpec = swaggerJsDoc(options);
