@@ -8,10 +8,29 @@ const userRouter = express.Router();
 
 /**
  * @swagger
- * /:
+ * /users:
  *   post:
- *     description:  User login fucntion
- */
+ *     summary: Login User.
+ *     responses:
+ *       201:
+ *         description: Created
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     username:
+ *                       type: integer
+ *                       description: The username.
+ *                       example: dat09
+ *                     password:
+ *                       type: string
+ *                       description: The user's password.
+ *                       example: dat09
+*/
 userRouter.post(
     "/login",
     asyncHandler(async (req, res) => {
@@ -88,9 +107,22 @@ userRouter.post(
 
 /**
  * @swagger
- * /:
+ * /users:
  *   get:
- *     description:  Get user Profile
+ *     summary: Retrieve a entity of JSONPlaceholder users.
+ *     description: Retrieve a entity of users from JSONPlaceholder. Can be used to populate a list of fake users when prototyping or testing an API.
+ *     responses:
+ *       200:
+ *         description: A profile of user
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 data:
+ *                   type: object
+ *                   items:
+ *                     type: object
  */
 userRouter.get(
     "/profile",
