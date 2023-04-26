@@ -37,7 +37,9 @@ const swaggerDefinition = {
   ],
   paths: {
     path: {
-      '/api/v1/agriculture': [Object],
+      'agriculture': [Object],
+      'agricultureType': [Object],
+      'user': [Object],
     }
   },
   components: {},
