@@ -6,6 +6,8 @@ import { errorHandler, notFound } from "./Middleware/Errors.js";
 import userRouter from "./Routes/userRouter.js";
 import agricultureRouter from "./Routes/agricultureRouter.js";
 import agricultureTypeRouter from "./Routes/agricultureTypeRouter.js";
+import swaggerUI from "swagger-ui-express";
+import swaggerJsDoc from "swagger-jsdoc";
 
 dotenv.config();
 connectDatabase();
