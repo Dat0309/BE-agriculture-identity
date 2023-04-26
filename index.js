@@ -39,7 +39,7 @@ const swaggerDefinition = {
 
 const options = {
   swaggerDefinition,
-  apis: ['./routes/*.js'],
+  apis: ['./Routes/*.js'],
 };
 
 const swaggerSpec = swaggerJsDoc(options);
@@ -69,7 +69,7 @@ app.use(function (req, res, next) {
 });
 
 // API
-app.use("/decs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 app.use("/api/v1/import", ImportData);
 app.use("/api/v1/agriculture", agricultureRouter);
 app.use("/api/v1/user", userRouter);
