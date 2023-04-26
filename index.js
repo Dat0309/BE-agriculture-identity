@@ -31,13 +31,13 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: 'https://agriculture-identity.vercel.app/api/v1',
+      url: 'https://agriculture-identity.vercel.app',
       description: 'Development server agriculture',
     },
   ],
   paths:{
     path: {
-      '/agriculture': [Object],
+      '/api/v1/agriculture': [Object],
     }
   },
   components: {},
