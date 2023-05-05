@@ -2,8 +2,10 @@ import express from "express";
 import { admin, protect } from "../Middleware/AuthMiddleware.js";
 import asyncHandler from "express-async-handler";
 import Agriculture from "../Models/agicultureModel.js";
+import multer from "multer";
 
 const agricultureRouter = express.Router();
+const upload = multer({ dest: 'uploads/' });
 
 /**
  * @swagger
@@ -113,6 +115,45 @@ agricultureRouter.get(
         }
     })
 );
+
+/**
+ * @swagger
+ * /:
+ *   post:
+ *     description: Create agriculture
+ */
+agricultureRouter.post(
+    "/recognization",
+    upload.single('image'),
+    asyncHandler(async (req, res) => {
+        const image = req.file;
+        const fastAPI = "http://localhost:8080/api/v1/agriculture-recognition/agriculture-recognition/recognition";
+        var recog_agriculture;
+        var error = "none";
+        await fetch(
+            fastAPI,
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(image)
+            }
+        )
+            .then(response => response.json())
+            .then(data => {
+                recog_agriculture = data
+            })
+            .catch(err => {
+                error = err
+            });
+            if(recog_agriculture){
+                res.json({recog_agriculture, error});
+            }else{
+                res.json({error})
+            }
+    })
+)
 
 /**
  * @swagger

@@ -8,6 +8,7 @@ import agricultureRouter from "./Routes/agricultureRouter.js";
 import agricultureTypeRouter from "./Routes/agricultureTypeRouter.js";
 import swaggerUI from "swagger-ui-express";
 import swaggerJsDoc from "swagger-jsdoc";
+import SwaggerParser from "@apidevtools/swagger-parser";
 
 dotenv.config();
 connectDatabase();
