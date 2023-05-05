@@ -125,7 +125,7 @@ agricultureRouter.post(
     "/recognization",
     asyncHandler(async (req, res) => {
         const image = req.file;
-        const fastAPI = "http://localhost:8080/api/v1/agriculture-recognition/agriculture-recognition/recognition";
+        const fastAPI = "http://127.0.0.1:8080/api/v1/agriculture-recognition/agriculture-recognition/recognition";
         var recog_agriculture;
         var error = "none";
         await fetch(
