@@ -5,7 +5,6 @@ import Agriculture from "../Models/agicultureModel.js";
 import multer from "multer";
 
 const agricultureRouter = express.Router();
-const upload = multer({ dest: 'uploads/' });
 
 /**
  * @swagger
@@ -124,7 +123,6 @@ agricultureRouter.get(
  */
 agricultureRouter.post(
     "/recognization",
-    upload.single('image'),
     asyncHandler(async (req, res) => {
         const image = req.file;
         const fastAPI = "http://localhost:8080/api/v1/agriculture-recognition/agriculture-recognition/recognition";
