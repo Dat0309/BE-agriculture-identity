@@ -2,7 +2,7 @@ import express from "express";
 import { admin, protect } from "../Middleware/AuthMiddleware.js";
 import asyncHandler from "express-async-handler";
 import Agriculture from "../Models/agicultureModel.js";
-import multer from "multer";
+import * as tf from "@tensorflow/tfjs";
 
 const agricultureRouter = express.Router();
 
@@ -124,32 +124,20 @@ agricultureRouter.get(
 agricultureRouter.post(
     "/recognization",
     asyncHandler(async (req, res) => {
-        const image = req.file;
-        const fastAPI = "http://127.0.0.1:8080/api/v1/agriculture-recognition/agriculture-recognition/recognition";
-        var recog_agriculture;
-        var error = "none";
-        await fetch(
-            fastAPI,
-            {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(image)
-            }
-        )
-            .then(response => response.json())
-            .then(data => {
-                recog_agriculture = data
-            })
-            .catch(err => {
-                error = err
-            });
-            if(recog_agriculture){
-                res.json({recog_agriculture, error});
-            }else{
-                res.json({error})
-            }
+        const model = await tf.loadLayersModel('./data/agriculture_model.h5');
+        const image = req.file.image.data;
+        const imageBuffer = Buffer.from(image);
+        const imageTensor = tf.node.decodeImage(imageBuffer);
+
+        const processedImageTensor = preprocessImage(imageTensor);
+        const prediction = model.predict(processedImageTensor);
+
+        var recog_agriculture = prediction.arraySync();
+        if (recog_agriculture) {
+            res.json({ recog_agriculture });
+        } else {
+            res.json("Error");
+        }
     })
 )
 
