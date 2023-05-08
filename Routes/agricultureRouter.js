@@ -124,7 +124,7 @@ agricultureRouter.get(
 agricultureRouter.post(
     "/recognization",
     asyncHandler(async (req, res) => {
-        const model = await tf.loadLayersModel("./data/agriculture_model.h5");
+        const model = await tf.loadLayersModel("../data/agriculture_model.h5");
         const image = req.file.image.data;
         const imageBuffer = Buffer.from(image);
         const imageTensor = tf.node.decodeImage(imageBuffer);
