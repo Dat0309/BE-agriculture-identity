@@ -86,7 +86,7 @@ agricultureRouter.get(
 agricultureRouter.get(
     'name/:name',
     asyncHandler(async (req, res) => {
-        const agriculture = await Agriculture.find({ common_name: req.params.name });
+        const agriculture = await Agriculture.find({ specific_name: req.params.name });
         if (agriculture) {
             res.json(agriculture)
         } else {
