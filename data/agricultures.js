@@ -46,6 +46,7 @@ const agricultures = [
     },
     {
         specific_name: "Iridaceae",
+        eng_name: "Iris",
         common_name: "Hoa Diên Vỹ",
         image: "https:\/\/cdn.tgdd.vn\/Files\/2021\/07\/23\/1370335\/y-nghia-cach-trong-va-cong-dung-cua-hoa-dien-vi-hoa-iris-day-cao-quy-202206041439409123.jpg",
         description: "Họ Diên vĩ, họ Lay ơn, họ La dơn hay họ Dơn (Iridaceae) là một họ thực vật trong bộ Măng tây. Tên gọi diên vĩ là lấy theo chi Diên vĩ, còn tên gọi lay ơn (lay dơn) là lấy theo chi Lay ơn. Nó bao gồm một số loài cây trồng được nhiều người biết đến như diên vĩ (Iris spp.), nghệ tây (Crocus spp.), sâm đại hành (Eleutherine spp.), rẻ quạt (Belamcanda spp.) v.v.\n\nCác loài trong họ này là cây lưu niên, với thân hành, thân củ hay thân rễ. Các loài cây này nói chung có thân mọc thẳng và các lá có hình dáng giống lá cỏ, với nếp gấp trung tâm sắc nhọn.",
@@ -214,7 +215,214 @@ const agricultures = [
         type: "6447dbeab556ff734098c732",
         height_and_spread: "15-20cm x 4-10cm",
         family: "Lentinus edodes"
-    }
+    },
+    {
+        specific_name: "Apple",
+        common_name: "Quả Táo",
+        image: "https://genk.mediacdn.vn/2019/11/22/photo-1-1574415918938570279854.jpg",
+        description: "Táo ta hay táo chua (danh pháp hai phần: Ziziphus mauritiana) là loại cây ăn quả của vùng nhiệt đới, thuộc về họ Táo (Rhamnaceae). Tại Trung Quốc, nó được gọi là táo chua, táo Ấn Độ hay táo Điền (táo Vân Nam), táo gai Vân Nam. Cây có thể lớn rất nhanh thậm chí trong các khu vực khô và cao tới 12 mét và đạt tuổi thọ 25 năm. Nó có nguồn gốc ở châu Á (chủ yếu là Ấn Độ) mặc dù cũng có thể tìm thấy ở châu Phi. Quả là loại quả hạch, khi chín nó mềm, chứa nhiều nước, có vị ngọt. Các quả chín vào các khoảng thời gian khác nhau ngay cả khi chỉ trên một cây và có màu lục nhạt khi còn xanh và vàng nhạt khi chín. Kích thước và hình dạng quả phụ thuộc vào các giống khác nhau trong tự nhiên cũng như loại được trồng. Quả được dùng để ăn khi đã chín hoặc ngâm rượu hay sử dụng để làm đồ uống. Nó là một loại quả giàu chất dinh dưỡng và chứa nhiều vitamin C.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Rhamnaceae"
+    },
+    {
+        specific_name: "Apple leaf",
+        common_name: "Lá Táo",
+        image: "https://www.cayantrai.org/wp-content/uploads/2020/11/apple-3625429_960_720.jpg",
+        description: "Táo ta hay táo chua (danh pháp hai phần: Ziziphus mauritiana) là loại cây ăn quả của vùng nhiệt đới, thuộc về họ Táo (Rhamnaceae). Tại Trung Quốc, nó được gọi là táo chua, táo Ấn Độ hay táo Điền (táo Vân Nam), táo gai Vân Nam. Cây có thể lớn rất nhanh thậm chí trong các khu vực khô và cao tới 12 mét và đạt tuổi thọ 25 năm. Nó có nguồn gốc ở châu Á (chủ yếu là Ấn Độ) mặc dù cũng có thể tìm thấy ở châu Phi. Quả là loại quả hạch, khi chín nó mềm, chứa nhiều nước, có vị ngọt. Các quả chín vào các khoảng thời gian khác nhau ngay cả khi chỉ trên một cây và có màu lục nhạt khi còn xanh và vàng nhạt khi chín. Kích thước và hình dạng quả phụ thuộc vào các giống khác nhau trong tự nhiên cũng như loại được trồng. Quả được dùng để ăn khi đã chín hoặc ngâm rượu hay sử dụng để làm đồ uống. Nó là một loại quả giàu chất dinh dưỡng và chứa nhiều vitamin C.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Rhamnaceae"
+    },
+    {
+        specific_name: "Banana",
+        common_name: "Quả Chuối",
+        image: "https://vinmec-prod.s3.amazonaws.com/images/20200505_095113_684763_chuoi-2.max-800x800.jpg",
+        description: "Chuối là tên gọi loại quả của các loài cây thuộc chi Chuối; đây được coi là một trong các loại trái cây được ăn rộng rãi nhất. Những cây chuối có gốc từ vùng nhiệt đới ở Đông Nam Á và Úc. Ngày nay, chuối được trồng khắp vùng nhiệt đới.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Musaceae"
+    },
+    {
+        specific_name: "Blueberry leaf",
+        common_name: "Lá Việt Quất",
+        image: "https://newfs.s3.amazonaws.com/taxon-images-1000s1000/Ericaceae/vaccinium-corymbosum-le-mlovit.jpg",
+        description: "Việt quất xanh,[1] hay Blueberry (thanh dâu), còn gọi là việt quất, là loại thực vật có hoa sống lâu năm, thuộc đoạn Cyanococcus, chi Vaccinium. Loại hoa quả phổ biến nhất trong đoạn Cyanococcus là quả việt quất, có xuất xứ từ Bắc Mỹ (cho đến những năm 1930, loại việt quất tán cao mới được đưa vào châu Âu).",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Ericaceae"
+    },
+    {
+        specific_name: "Cherry",
+        common_name: "Cherry",
+        image: "https://hoaquafuji.com/storage/app/media/gia-cherry-tren-thi-truong-00.png",
+        description: "Anh đào (Cherry) là một loại quả của nhiều loại thực vật thuộc chi Prunus và là một quả hạch.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Prunus serrulata"
+    },
+    {
+        specific_name: "Cherry leaf",
+        common_name: "Lá Cherry",
+        image: "https://treegrowing.tcv.org.uk/wp-content/uploads/2019/08/bird-cherry-leaf-740x555.jpg",
+        description: "Anh đào (Cherry) là một loại quả của nhiều loại thực vật thuộc chi Prunus và là một quả hạch.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Prunus serrulata"
+    },
+    {
+        specific_name: "Chickoo fruit",
+        common_name: "Quả Hồng Xiêm",
+        image: "https://images.healthshots.com/healthshots/en/uploads/2022/01/06132346/chikoo.jpg",
+        description: "Hồng xiêm có thể cao từ 2–10 m. Nó là loại cây có khả năng chống gió tốt và vỏ cây rất nhiều nhựa màu trắng, giống như gôm. Lá của chúng có màu xanh lục và bóng mặt. Lá mọc cách tập trung đầu cành, hình elip hay ôvan, dài 7–15 cm, với mép trơn. Hoa màu trắng, không dễ thấy, có hình dáng tương tự như quả chuông và có 6 tràng hoa hình thùy.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Sapotaceae"
+    },
+    {
+        specific_name: "Daisy",
+        common_name: "Hoa Cook",
+        image: "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/c\/c1\/Asteracea_poster_3.jpg\/420px-Asteracea_poster_3.jpg",
+        description: "Họ Cúc (tên khoa học: Asteraceae hoặc Compositae), còn gọi là họ Hướng dương, họ Cúc tây, là một họ thực vật có hoa hai lá mầm. Tên gọi khoa học của họ này có từ chi Aster (Cúc tây) và có từ nguyên từ gốc tiếng Hy Lạp mang nghĩa ngôi sao-hình dáng của bông hoa trong các loài của nó, được điển hình hóa thành tên gọi phổ biến chung là hoa cúc. Họ Asteraceae là họ lớn thứ nhất hoặc thứ hai trong ngành Magnoliophyta, chỉ có Họ Phong lan (Orchidaceae) là có thể có sự đa dạng lớn hơn, với khoảng 25.000 loài[4] đã được miêu tả. Họ này theo các định nghĩa khác nhau chứa khoảng 900-1.650 chi và từ 13.000-24.000 loài.",
+        type: "6447dbeab556ff734098c730",
+        height_and_spread: "30-120cm x 30-90cm",
+        family: "Asteraceae"
+    },
+    {
+        specific_name: "Dandelion",
+        common_name: "Hoa Bồ Công Anh",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Dandelion_clock.jpg/800px-Dandelion_clock.jpg",
+        description: "Thân không lông, cao 60 – 200 cm, thân thường đơn hoặc chẻ nhánh ở phần trên. Các lá phía dưới không lông, lá đơn mọc cách. Phiến lá thuôn dài hoặc dạng hình mũi mác, kích thước phiến lá dài từ 13 – 25 cm, rộng từ 1,5–11 cm, đầu lá nhọn, đuôi lá hình nêm hoặc men cuống, cuống lá thường ngắn hoặc men cuống tới tận nách lá.",
+        type: "6447dbeab556ff734098c730",
+        height_and_spread: "30-120cm x 30-90cm",
+        family: "Asteraceae"
+    },
+    {
+        specific_name: "Grape leaf",
+        common_name: "Lá Nho",
+        image: "https://i0.wp.com/deepgreenpermaculture.com/wp-content/uploads/2020/05/20180101_1625531.jpg",
+        description: "Nho là một loại quả mọng lấy từ các loài cây thân leo thuộc chi Nho (Vitis). Quả nho mọc thành chùm từ 6 đến 300 quả, chúng có màu đen, lam, vàng, lục, đỏ-tía hay trắng. Khi chín, quả nho có thể ăn tươi hoặc được sấy khô để làm nho khô, cũng như được dùng để sản xuất các loại rượu vang, thạch nho, nước quả, mật nho, dầu hạt nho.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Vitis amurensis"
+    },
+    {
+        specific_name: "Grapes fruit",
+        common_name: "Quả Nho",
+        image: "https://cdn.nhathuoclongchau.com.vn/unsafe/filters:quality(95)/https://cms-prod.s3-sgn09.fptcloud.com/Bat_mi_nho_bao_nhieu_calo_1_40dfe9d355.jpg",
+        description: "Nho là một loại quả mọng lấy từ các loài cây thân leo thuộc chi Nho (Vitis). Quả nho mọc thành chùm từ 6 đến 300 quả, chúng có màu đen, lam, vàng, lục, đỏ-tía hay trắng. Khi chín, quả nho có thể ăn tươi hoặc được sấy khô để làm nho khô, cũng như được dùng để sản xuất các loại rượu vang, thạch nho, nước quả, mật nho, dầu hạt nho.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Vitis amurensis"
+    },
+    {
+        specific_name: "Kiwi fruit",
+        common_name: "Quả Kiwi",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0mMaUoshqlP_CNFAjkNh8hJ2uSG3eBdMzBA&usqp=CAU",
+        description: "Kiwi hay dương đào là một loài cây có quả mọng ăn được thuộc nhóm loài cây gỗ thân leo trong chi Actinidia (Dương đào).[1][2] Nhóm cây quả kiwi được trồng phổ biến nhất là Actinidia deliciosa 'Hayward'[3] quả có hình bầu dục, kích thước bằng quả trứng gà cỡ lớn: dài 5–8 cm (2–3 in) và đường kính 4,5–5,5 cm (1+3⁄4–2+1⁄4 in). Vỏ mỏng, mờ, dạng sợi, có vị chua, vỏ của quả có màu nâu nhạt có thể ăn được, thịt quả màu xanh lục nhạt hoặc vàng với những hàng hạt nhỏ màu đen có thể ăn được. Quả có cấu trúc mềm mại với hương vị ngọt ngào và độc đáo.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Actinidia deliciosa"
+    },
+    {
+        specific_name: "Mango fruit",
+        common_name: "Quả Xoài",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV8XZwsse8kTE85dgPR-uwsCtQspW5-l4lwg&usqp=CAU",
+        description: "Xoài là một loại trái cây vị ngọt thuộc chi Xoài, bao gồm rất nhiều quả cây nhiệt đới, được trồng chủ yếu như trái cây ăn được. Phần lớn các loài được tìm thấy trong tự nhiên là các loại xoài hoang dã. Tất cả đều thuộc họ thực vật có hoa Anacardiaceae. Xoài có nguồn gốc ở Nam Á và Đông Nam Á, từ đó nó đã được phân phối trên toàn thế giới để trở thành một trong những loại trái cây được trồng hầu hết ở vùng nhiệt đới",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Anacardiaceae"
+    },
+    {
+        specific_name: "Orange fruit",
+        common_name: "Quả Cam",
+        image: "https://suckhoedoisong.qltns.mediacdn.vn/Images/thanhloan/2016/06/05/tac-dung-cua-qua-cam-2.jpg",
+        description: "Cam là quả của nhiều loài cây có múi khác nhau thuộc họ Cửu lý hương (Rutaceae) (xem danh sách các loài thực vật được gọi là cam); nó chủ yếu đề cập đến Citrus × sinensis,[1] mà còn được gọi là cam ngọt, để phân biệt với Citrus × aurantium có liên quan, được gọi là cam chua. Cam ngọt sinh sản vô tính (apomixis thông qua phôi nucellar); giống cam ngọt phát sinh do đột biến.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Rutaceae"
+    },
+    {
+        specific_name: "Peach leaf",
+        common_name: "Lá Đào",
+        image: "https://alamedabackyardgrowers.org/wp-content/uploads/2018/11/peach-leaf-curl.jpeg",
+        description: "Đào (danh pháp khoa học: Prunus persica) là một loài cây được trồng để lấy quả hay hoa. Nó là một loài cây sớm rụng lá, thân gỗ nhỏ, có thể cao tới 5–10 m. Lá của nó có hình mũi mác, dài 7–15 cm và rộng 2–3 cm. Hoa nở vào đầu mùa đông, trước khi ra lá; hoa đơn hay có đôi, đường kính 2,5–3 cm, màu hồng với 5 cánh hoa. Quả đào cùng với quả của anh đào, mận, mơ là các loại quả hạch.Quả của nó có một hạt giống to được bao bọc trong một lớp vỏ gỗ cứng (gọi là hột), cùi thịt màu vàng hay ánh trắng, có mùi vị thơm ngon và lớp vỏ có lông tơ mềm như nhung.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Rosaceae"
+    },
+    {
+        specific_name: "Pepper leaf",
+        common_name: "Lá Tiêu",
+        image: "https://thumbs.dreamstime.com/b/picture-black-pepper-sri-lanka-was-taken-samsung-galaxy-m-picture-wasn-t-edited-real-198842653.jpg",
+        description: "Hồ tiêu còn gọi là tiêu ăn, cổ nguyệt, hắc cổ nguyệt, bạch cổ nguyệt (danh pháp khoa học: Piper nigrum) là một loài cây leo có hoa thuộc họ Hồ tiêu (Piperaceae), trồng chủ yếu để lấy quả và hạt, thường dùng làm gia vị dưới dạng khô hoặc tươi. Hoa hồ tiêu là quốc hoa của đất nước Liberia.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Piperaceae"
+    },
+    {
+        specific_name: "Potato",
+        common_name: "Khoai tây",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwytYUfSIrD_roJbX-rnyZFHEQ4jazsi8ukg&usqp=CAU",
+        description: "Khoai tây (danh pháp hai phần: Solanum tuberosum), thuộc họ Cà (Solanaceae). Khoai tây là loài cây nông nghiệp ngắn ngày, trồng lấy củ chứa tinh bột. Chúng là loại cây trồng lấy củ rộng rãi nhất thế giới và là loại cây trồng phổ biến thứ tư về mặt sản lượng tươi – xếp sau lúa, lúa mì và ngô[1]. Lưu trữ khoai tây dài ngày đòi hỏi bảo quản trong điều kiện lạnh.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Solanaceae"
+    },
+    {
+        specific_name: "Potato leaf",
+        common_name: "Lá Khoai tây",
+        image: "https://www.gardeningknowhow.com/wp-content/uploads/2015/03/sweet-potato-leaves.jpg",
+        description: "Khoai tây (danh pháp hai phần: Solanum tuberosum), thuộc họ Cà (Solanaceae). Khoai tây là loài cây nông nghiệp ngắn ngày, trồng lấy củ chứa tinh bột. Chúng là loại cây trồng lấy củ rộng rãi nhất thế giới và là loại cây trồng phổ biến thứ tư về mặt sản lượng tươi – xếp sau lúa, lúa mì và ngô[1]. Lưu trữ khoai tây dài ngày đòi hỏi bảo quản trong điều kiện lạnh.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Solanaceae"
+    },
+    {
+        specific_name: "Raspberry leaf",
+        common_name: "Lá Mâm xôi",
+        image: "https://melissaknorris.com/wp-content/uploads/2022/05/Raspberry-Leaf_MKN-1024x768.jpg",
+        description: "Mâm xôi đỏ hay Phúc bồn tử là một loại quả ăn được trong vô số loài thưc vật trong chi Mâm xôi thuộc họ Dâu, hầu hết trong số đó thuộc phân chi Idaeobatus, tên gọi cũng được gắn cho những loài này. Mâm xôi là những cây lâu năm thân gỗ.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Idaeobatus"
+    },
+    {
+        specific_name: "Soybean leaf",
+        common_name: "Lá Đậu nành",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs931kKbWgfY8x1MgrnAnKZn-wEMERI5BLojUwN2yM2_G5z9fMdKrxcR7q8bwsZ1GqUW0&usqp=CAU",
+        description: "Đậu nành hay đỗ tương, hoặc đậu tương (tên khoa học Glycine max) là loại cây họ Đậu (Fabaceae), là loài bản địa của Đông Á. Loài này giàu hàm lượng chất đạm protein, được trồng để làm thức ăn cho người và gia súc.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Fabaceae"
+    },
+    {
+        specific_name: "Strawberry fruit",
+        common_name: "Dâu tây",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPE0S6unGMNU8QpCRN-vQ3aqHn50whaRwVQ&usqp=CAU",
+        description: "Dâu tây (danh pháp khoa học: Fragaria × ananassa)[1] là một chi thực vật hạt kín và loài thực vật có hoa thuộc họ Hoa hồng (Rosaceae). Dâu tây xuất xứ từ châu Mỹ và được các nhà làm vườn châu Âu cho lai tạo vào thế kỷ 18 để tạo nên giống dâu tây được trồng rộng rãi hiện nay. Loài này được (Weston) Duchesne miêu tả khoa học đầu tiên năm 1788. Loại quả này được nhiều người đánh giá cao nhờ hương thơm đặc trưng, màu đỏ tươi, mọng nước và vị ngọt. Nó được tiêu thụ với số lượng lớn, hoặc được tiêu thụ dưới dạng dâu tươi hoặc được chế biến thành mứt, nước trái cây, bánh nướng, kem, sữa lắc và sôcôla. Nguyên liệu và hương liệu dâu nhân tạo cũng được sử dụng rộng rãi trong các sản phẩm như kẹo, xà phòng, son bóng, nước hoa, và nhiều loại khác.",
+        type: "6447dbeab556ff734098c732",
+        height_and_spread: "30-40cm x 15-20cm",
+        family: "Rosaceae"
+    },
+    {
+        specific_name: "Strawberry leaf",
+        common_name: "Lá Dâu tây",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl20l_oWayt2q3wAHeb1NFsGn-TAQBGYGzQ&usqp=CAU",
+        description: "Dâu tây (danh pháp khoa học: Fragaria × ananassa)[1] là một chi thực vật hạt kín và loài thực vật có hoa thuộc họ Hoa hồng (Rosaceae). Dâu tây xuất xứ từ châu Mỹ và được các nhà làm vườn châu Âu cho lai tạo vào thế kỷ 18 để tạo nên giống dâu tây được trồng rộng rãi hiện nay. Loài này được (Weston) Duchesne miêu tả khoa học đầu tiên năm 1788. Loại quả này được nhiều người đánh giá cao nhờ hương thơm đặc trưng, màu đỏ tươi, mọng nước và vị ngọt. Nó được tiêu thụ với số lượng lớn, hoặc được tiêu thụ dưới dạng dâu tươi hoặc được chế biến thành mứt, nước trái cây, bánh nướng, kem, sữa lắc và sôcôla. Nguyên liệu và hương liệu dâu nhân tạo cũng được sử dụng rộng rãi trong các sản phẩm như kẹo, xà phòng, son bóng, nước hoa, và nhiều loại khác.",
+        type: "6447dbeab556ff734098c72f",
+        height_and_spread: "0,5-1m x 10-20cm",
+        family: "Rosaceae"
+    },
+    {
+        specific_name: "Sunflower",
+        common_name: "Hoa Hướng Dương",
+        image: "https://theyoungfc.com/app/uploads/2022/08/gio-hoa-huong-duong01.jpg",
+        description: "Hướng Dương (hay còn gọi là Hướng Nhật Quỳ, Hướng Dương Quỳ Tử, Thiên Quỳ Tử, Quỳ Tử, Quỳ Hoa Tử) là loài hoa thuộc họ Cúc (Asteraceae), có tên khoa học là Helianthus Annuus.",
+        type: "6447dbeab556ff734098c730",
+        height_and_spread: "30-120cm x 30-90cm",
+        family: "Asteraceae"
+    },
 ]
 
 export default agricultures;
