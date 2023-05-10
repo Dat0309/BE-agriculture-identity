@@ -84,7 +84,7 @@ agricultureRouter.get(
  *     description: Get agriculture by name
  */
 agricultureRouter.get(
-    'name/',
+    '/name/',
     asyncHandler(async (req, res) => {
         const agriculture = await Agriculture.find({ specific_name: req.query.name });
         if (agriculture) {
