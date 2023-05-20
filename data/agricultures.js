@@ -100,15 +100,6 @@ const agricultures = [
         family: "Rubiaceae"
     },
     {
-        specific_name: "Camellia sinensis",
-        common_name: "Lá Chè",
-        image: "https:\/\/suckhoedoisong.qltns.mediacdn.vn\/324455921873985536\/2022\/7\/3\/h1-hinh-1-nhung-dieu-thu-vi-ve-dac-diem-cay-che-dac-diem-sinh-thai-vung-mien1-1656859695050198595599.jpg",
-        description: "Trà (hay chè) là đồ uống phổ biến thứ hai trên thế giới (sau nước uống). Nó làm bằng cách ngâm lá, chồi, hay cành của cây chè (Camellia sinensis) vào nước sôi từ vài phút đến vài giờ. Lá chè có thể được oxy hóa (ủ để lên men), sấy rang, phơi, hay pha thêm các loài thảo mộc khác như hoa, gia vị, hay trái cây khác trước khi chế vào nước sôi. Trong phạm vi thức uống chế từ Camellia sinensis thì có bốn loại trà thật: Trà đen, Trà Ô Long, Trà xanh và Trà trắng. Nước trà là nguồn caffein, theophylline và chất chống oxy hóa (antioxidant) tự nhiên và gần như không có mỡ, carbohydrate, hay protein. Nước trà có mùi thơm, vị hơi đắng và chát.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "16m",
-        family: "Camellia sinensis"
-    },
-    {
         specific_name: "Tithonia diversifolia",
         common_name: "Hoa Dã Quỳ",
         image: "https:\/\/hoadepviet.com\/wp-content\/uploads\/2017\/11\/hoa-da-quy.jpg",
@@ -226,15 +217,6 @@ const agricultures = [
         family: "Rhamnaceae"
     },
     {
-        specific_name: "Apple",
-        common_name: "Lá Táo",
-        image: "https://www.cayantrai.org/wp-content/uploads/2020/11/apple-3625429_960_720.jpg",
-        description: "Táo ta hay táo chua (danh pháp hai phần: Ziziphus mauritiana) là loại cây ăn quả của vùng nhiệt đới, thuộc về họ Táo (Rhamnaceae). Tại Trung Quốc, nó được gọi là táo chua, táo Ấn Độ hay táo Điền (táo Vân Nam), táo gai Vân Nam. Cây có thể lớn rất nhanh thậm chí trong các khu vực khô và cao tới 12 mét và đạt tuổi thọ 25 năm. Nó có nguồn gốc ở châu Á (chủ yếu là Ấn Độ) mặc dù cũng có thể tìm thấy ở châu Phi. Quả là loại quả hạch, khi chín nó mềm, chứa nhiều nước, có vị ngọt. Các quả chín vào các khoảng thời gian khác nhau ngay cả khi chỉ trên một cây và có màu lục nhạt khi còn xanh và vàng nhạt khi chín. Kích thước và hình dạng quả phụ thuộc vào các giống khác nhau trong tự nhiên cũng như loại được trồng. Quả được dùng để ăn khi đã chín hoặc ngâm rượu hay sử dụng để làm đồ uống. Nó là một loại quả giàu chất dinh dưỡng và chứa nhiều vitamin C.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Rhamnaceae"
-    },
-    {
         specific_name: "Banana",
         common_name: "Quả Chuối",
         image: "https://vinmec-prod.s3.amazonaws.com/images/20200505_095113_684763_chuoi-2.max-800x800.jpg",
@@ -244,30 +226,12 @@ const agricultures = [
         family: "Musaceae"
     },
     {
-        specific_name: "Blueberry",
-        common_name: "Lá Việt Quất",
-        image: "https://newfs.s3.amazonaws.com/taxon-images-1000s1000/Ericaceae/vaccinium-corymbosum-le-mlovit.jpg",
-        description: "Việt quất xanh,[1] hay Blueberry (thanh dâu), còn gọi là việt quất, là loại thực vật có hoa sống lâu năm, thuộc đoạn Cyanococcus, chi Vaccinium. Loại hoa quả phổ biến nhất trong đoạn Cyanococcus là quả việt quất, có xuất xứ từ Bắc Mỹ (cho đến những năm 1930, loại việt quất tán cao mới được đưa vào châu Âu).",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Ericaceae"
-    },
-    {
         specific_name: "Cherry",
         common_name: "Cherry",
         image: "https://hoaquafuji.com/storage/app/media/gia-cherry-tren-thi-truong-00.png",
         description: "Anh đào (Cherry) là một loại quả của nhiều loại thực vật thuộc chi Prunus và là một quả hạch.",
         type: "6447dbeab556ff734098c732",
         height_and_spread: "30-40cm x 15-20cm",
-        family: "Prunus serrulata"
-    },
-    {
-        specific_name: "Cherry",
-        common_name: "Lá Cherry",
-        image: "https://treegrowing.tcv.org.uk/wp-content/uploads/2019/08/bird-cherry-leaf-740x555.jpg",
-        description: "Anh đào (Cherry) là một loại quả của nhiều loại thực vật thuộc chi Prunus và là một quả hạch.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
         family: "Prunus serrulata"
     },
     {
@@ -296,15 +260,6 @@ const agricultures = [
         type: "6447dbeab556ff734098c730",
         height_and_spread: "30-120cm x 30-90cm",
         family: "Asteraceae"
-    },
-    {
-        specific_name: "Grape",
-        common_name: "Lá Nho",
-        image: "https://i0.wp.com/deepgreenpermaculture.com/wp-content/uploads/2020/05/20180101_1625531.jpg",
-        description: "Nho là một loại quả mọng lấy từ các loài cây thân leo thuộc chi Nho (Vitis). Quả nho mọc thành chùm từ 6 đến 300 quả, chúng có màu đen, lam, vàng, lục, đỏ-tía hay trắng. Khi chín, quả nho có thể ăn tươi hoặc được sấy khô để làm nho khô, cũng như được dùng để sản xuất các loại rượu vang, thạch nho, nước quả, mật nho, dầu hạt nho.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Vitis amurensis"
     },
     {
         specific_name: "Grapes",
@@ -343,15 +298,6 @@ const agricultures = [
         family: "Rutaceae"
     },
     {
-        specific_name: "Peach",
-        common_name: "Lá Đào",
-        image: "https://alamedabackyardgrowers.org/wp-content/uploads/2018/11/peach-leaf-curl.jpeg",
-        description: "Đào (danh pháp khoa học: Prunus persica) là một loài cây được trồng để lấy quả hay hoa. Nó là một loài cây sớm rụng lá, thân gỗ nhỏ, có thể cao tới 5–10 m. Lá của nó có hình mũi mác, dài 7–15 cm và rộng 2–3 cm. Hoa nở vào đầu mùa đông, trước khi ra lá; hoa đơn hay có đôi, đường kính 2,5–3 cm, màu hồng với 5 cánh hoa. Quả đào cùng với quả của anh đào, mận, mơ là các loại quả hạch.Quả của nó có một hạt giống to được bao bọc trong một lớp vỏ gỗ cứng (gọi là hột), cùi thịt màu vàng hay ánh trắng, có mùi vị thơm ngon và lớp vỏ có lông tơ mềm như nhung.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Rosaceae"
-    },
-    {
         specific_name: "Pepper",
         common_name: "Lá Tiêu",
         image: "https://thumbs.dreamstime.com/b/picture-black-pepper-sri-lanka-was-taken-samsung-galaxy-m-picture-wasn-t-edited-real-198842653.jpg",
@@ -370,48 +316,12 @@ const agricultures = [
         family: "Solanaceae"
     },
     {
-        specific_name: "Potato",
-        common_name: "Lá Khoai tây",
-        image: "https://www.gardeningknowhow.com/wp-content/uploads/2015/03/sweet-potato-leaves.jpg",
-        description: "Khoai tây (danh pháp hai phần: Solanum tuberosum), thuộc họ Cà (Solanaceae). Khoai tây là loài cây nông nghiệp ngắn ngày, trồng lấy củ chứa tinh bột. Chúng là loại cây trồng lấy củ rộng rãi nhất thế giới và là loại cây trồng phổ biến thứ tư về mặt sản lượng tươi – xếp sau lúa, lúa mì và ngô[1]. Lưu trữ khoai tây dài ngày đòi hỏi bảo quản trong điều kiện lạnh.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Solanaceae"
-    },
-    {
-        specific_name: "Raspberry",
-        common_name: "Lá Mâm xôi",
-        image: "https://melissaknorris.com/wp-content/uploads/2022/05/Raspberry-Leaf_MKN-1024x768.jpg",
-        description: "Mâm xôi đỏ hay Phúc bồn tử là một loại quả ăn được trong vô số loài thưc vật trong chi Mâm xôi thuộc họ Dâu, hầu hết trong số đó thuộc phân chi Idaeobatus, tên gọi cũng được gắn cho những loài này. Mâm xôi là những cây lâu năm thân gỗ.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Idaeobatus"
-    },
-    {
-        specific_name: "Soybean",
-        common_name: "Lá Đậu nành",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs931kKbWgfY8x1MgrnAnKZn-wEMERI5BLojUwN2yM2_G5z9fMdKrxcR7q8bwsZ1GqUW0&usqp=CAU",
-        description: "Đậu nành hay đỗ tương, hoặc đậu tương (tên khoa học Glycine max) là loại cây họ Đậu (Fabaceae), là loài bản địa của Đông Á. Loài này giàu hàm lượng chất đạm protein, được trồng để làm thức ăn cho người và gia súc.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
-        family: "Fabaceae"
-    },
-    {
         specific_name: "Strawberry",
         common_name: "Dâu tây",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPE0S6unGMNU8QpCRN-vQ3aqHn50whaRwVQ&usqp=CAU",
         description: "Dâu tây (danh pháp khoa học: Fragaria × ananassa)[1] là một chi thực vật hạt kín và loài thực vật có hoa thuộc họ Hoa hồng (Rosaceae). Dâu tây xuất xứ từ châu Mỹ và được các nhà làm vườn châu Âu cho lai tạo vào thế kỷ 18 để tạo nên giống dâu tây được trồng rộng rãi hiện nay. Loài này được (Weston) Duchesne miêu tả khoa học đầu tiên năm 1788. Loại quả này được nhiều người đánh giá cao nhờ hương thơm đặc trưng, màu đỏ tươi, mọng nước và vị ngọt. Nó được tiêu thụ với số lượng lớn, hoặc được tiêu thụ dưới dạng dâu tươi hoặc được chế biến thành mứt, nước trái cây, bánh nướng, kem, sữa lắc và sôcôla. Nguyên liệu và hương liệu dâu nhân tạo cũng được sử dụng rộng rãi trong các sản phẩm như kẹo, xà phòng, son bóng, nước hoa, và nhiều loại khác.",
         type: "6447dbeab556ff734098c732",
         height_and_spread: "30-40cm x 15-20cm",
-        family: "Rosaceae"
-    },
-    {
-        specific_name: "Strawberry",
-        common_name: "Lá Dâu tây",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl20l_oWayt2q3wAHeb1NFsGn-TAQBGYGzQ&usqp=CAU",
-        description: "Dâu tây (danh pháp khoa học: Fragaria × ananassa)[1] là một chi thực vật hạt kín và loài thực vật có hoa thuộc họ Hoa hồng (Rosaceae). Dâu tây xuất xứ từ châu Mỹ và được các nhà làm vườn châu Âu cho lai tạo vào thế kỷ 18 để tạo nên giống dâu tây được trồng rộng rãi hiện nay. Loài này được (Weston) Duchesne miêu tả khoa học đầu tiên năm 1788. Loại quả này được nhiều người đánh giá cao nhờ hương thơm đặc trưng, màu đỏ tươi, mọng nước và vị ngọt. Nó được tiêu thụ với số lượng lớn, hoặc được tiêu thụ dưới dạng dâu tươi hoặc được chế biến thành mứt, nước trái cây, bánh nướng, kem, sữa lắc và sôcôla. Nguyên liệu và hương liệu dâu nhân tạo cũng được sử dụng rộng rãi trong các sản phẩm như kẹo, xà phòng, son bóng, nước hoa, và nhiều loại khác.",
-        type: "6447dbeab556ff734098c72f",
-        height_and_spread: "0,5-1m x 10-20cm",
         family: "Rosaceae"
     },
     {
