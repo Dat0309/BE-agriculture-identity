@@ -88,7 +88,7 @@ agricultureRouter.get(
     asyncHandler(async (req, res) => {
         const agriculture = await Agriculture.find({ specific_name: req.query.name });
         if (agriculture) {
-            res.json(agriculture)
+            res.json({agriculture})
         } else {
             res.status(404).send("Not found agriculture by name" + req.params.name);
             throw new Error("Not found agriculture by name" + req.params.name);
