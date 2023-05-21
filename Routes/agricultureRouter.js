@@ -31,11 +31,9 @@ agricultureRouter.get(
             : {};
         const count = await Agriculture.countDocuments({ ...keyword });
         const agricultures = await Agriculture.find({ ...keyword })
-            .limit(pageSize)
-            .skip(pageSize * (page - 1))
             .sort({ _id: -1 });
 
-        res.json({ agricultures, count, page, pages: Math.ceil(count / pageSize) });
+        res.json({ agricultures });
     })
 );
 
