@@ -63,7 +63,7 @@ const swaggerSpec = swaggerJsDoc(options);
 
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "http://172.16.16.108:3000");
 
   // Request methods you wish to allow
   res.setHeader(
